@@ -1,0 +1,18 @@
+{
+  "exchanges": {
+    "binance": {
+      "apiKey": "your_binance_key",
+      "secret": "your_binance_secret",
+      "sandbox": false
+    },
+    "bybit": {
+      "apiKey": "your_bybit_key",
+      "secret": "your_bybit_secret",
+      "sandbox": false
+    }
+  },
+  "symbols": ["BTC/USDT", "ETH/USDT"],
+  "strategies": ["rsi", "ma", "bb"],
+  "amount_per_trade": 0.001,
+  "max_trades_per_hour": 5
+}
